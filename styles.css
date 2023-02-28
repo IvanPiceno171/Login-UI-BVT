@@ -1,42 +1,42 @@
-
-body{
-    display: flex;
-    justify-content: center;
-    margin-top: 20vh;
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.inputContainer{
-    border: 3px solid rgb(119, 22, 22);
-    padding: 70px;
-    overflow: hidden;
-    box-shadow: 5px 5px 50px black;
-    border-radius: 10%;
-    min-width: auto;
-    max-width: auto;
+.inputContainer {
+  border: 3px solid rgb(119, 22, 22);
+  padding: 70px;
+  overflow: hidden;
+  box-shadow: 5px 5px 50px black;
+  border-radius: 10%;
+  min-width: auto;
+  max-width: auto;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.buttonContainer{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
-button{
-    border-radius: 20px;
-    padding: 10px;
-    width: 100px;
-    color:white;
-    background-color: black;
-    opacity: .7;
+button {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
 }
-.usernameContainer, .passwordContainer{
-    margin-top: 40px;
+.usernameContainer,
+.passwordContainer {
+  margin-top: 40px;
 }
