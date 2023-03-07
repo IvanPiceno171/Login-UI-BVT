@@ -1,6 +1,4 @@
-body{
-  /* display: inline; */
-}
+
 .container {
   height: 100vh;
   width: 100vw;
@@ -43,5 +41,8 @@ button {
 .usernameContainer,
 .passwordContainer {
   margin-top: 40px;
+}
+
+.userName, .password{
   overflow: none;
 }
