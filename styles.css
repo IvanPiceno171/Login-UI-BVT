@@ -13,15 +13,17 @@
 }
 
 .inputContainer {
-  overflow: none;
   border: 3px solid rgb(119, 22, 22);
   padding: 70px;
   box-shadow: 5px 5px 50px black;
   border-radius: 10%;
 }
 
+
+
 h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .buttonContainer {
   display: flex;
@@ -41,8 +43,8 @@ button {
 .usernameContainer,
 .passwordContainer {
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.userName, .password{
-  overflow: none;
-}
